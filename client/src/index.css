@@ -14,11 +14,7 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
-}
-
-.movie-director {
-  padding: 4px 0;
-  font-size: 0.8rem;
+  text-align: center;
 }
 
 .saved-list {
@@ -30,43 +26,8 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
-  width: 75%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.saved-list h3 {
-  margin-right: 10px;
-}
-
-.saved-movie {
-  margin: 0 10px;
-}
-.saved-active {
-  color: blue;
-  border: 1px solid grey;
-  padding: 5px;
-}
-.save-wrapper {
-  position: relative;
-  width: 75%;
-  margin: 1rem auto;
-}
-.save-button {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  border: 1px solid grey;
-  padding: 5px 10px;
-  background-color: lightseagreen;
-}
-.save-button:hover {
-  background-color: green;
-  color: white;
-}
-
-.home-button {
-  padding: 5px 10px;
-  background-color: lightskyblue;
 }
